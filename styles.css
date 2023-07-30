@@ -1,0 +1,87 @@
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    color: white;
+    background-image: url(images/bg-desktop.svg);
+    background-color: var(--violet);
+}
+
+header {
+    margin: 52px 80px 64px 80px;
+}
+
+.hero-container {
+    display: flex;
+    margin: 0 85px 0 80px;
+}
+
+.right-card {
+    margin-left: 59px;
+    padding-top: 24px;
+}
+
+.right-card h1 {
+    width: 487px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    padding-bottom: 24px;
+}
+
+.right-card p {
+    width: 520px;
+    font-family: 'Opens Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 24px;
+
+}
+
+.button {
+    width: 200px;
+    height: 56px;
+    border-style: none;
+    border-radius: 28px;
+    color: var(--soft-magenta);
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+
+}
+
+/* Footer */
+
+footer {
+    /* width: 100%; */
+}
+
+.image-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 80px 40px 0;
+}
+
+footer img {
+    padding: 0 12px 40px 0;
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
