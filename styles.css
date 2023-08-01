@@ -58,7 +58,13 @@ header {
     border-radius: 28px;
     color: var(--soft-magenta);
     box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+    color: var(--violet);
+}
 
+.button:hover {
+    background-color: var(--soft-magenta);
+    color: white;
+    cursor: pointer;
 }
 
 /* Footer */
@@ -77,6 +83,7 @@ footer {
 footer img {
     padding: 0 12px 40px 0;
 }
+
 
 /* .attribution {
   font-size: 11px;
